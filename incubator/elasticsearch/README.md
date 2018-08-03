@@ -85,6 +85,7 @@ The following table lists the configurable parameters of the elasticsearch chart
 | `master.name`                        | Master component name                                               | `master`                             |
 | `master.replicas`                    | Master node replicas (deployment)                                   | `2`                                  |
 | `master.resources`                   | Master node resources requests & limits                             | `{} - cpu limit must be an integer`  |
+| `master.serviceType`                 | Master service type                                                 | `ClusterIP`                          |
 | `master.priorityClassName`           | Master priorityClass                                                | `nil`                                |
 | `master.podAnnotations`              | Master Deployment annotations                                       | `{}`                                 |
 | `master.nodeSelector`                | Node labels for master pod assignment                               | `{}`                                 |

@@ -52,6 +52,7 @@ master:
   name: master
   exposeHttp: false
   replicas: 3
+  serviceType: ClusterIP
   heapSize: "512m"
   persistence:
     enabled: true
